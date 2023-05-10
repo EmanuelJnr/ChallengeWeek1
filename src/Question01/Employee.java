@@ -1,12 +1,12 @@
-package QuestionsJava;
+package Question01;
 
-public class Q1Employee {
+public class Employee {
 	private String name;
 	private float salary;
 	private float bonus;
 	private float liqSalary;
 	
-	public Q1Employee(String name, float salary) {
+	public Employee(String name, float salary) {
 		setName(name);
 		setSalary(salary);
 		calcLiqSalary();
