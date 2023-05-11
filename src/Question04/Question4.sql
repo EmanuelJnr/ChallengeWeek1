@@ -20,7 +20,7 @@ CREATE TABLE Person
     nome varchar(45) not null,
     age tinyint not null,
     phone varchar(21),
-    height int not null default '0',
+    height float not null default '0',
     email varchar(100),
     cpf varchar(14) not null,
     birthday date not null,
