@@ -1,7 +1,7 @@
 CREATE DATABASE question4;
 USE question4;
 
-CREATE TABLE Addressperson_idnome
+CREATE TABLE Address
 (
 	address_id int unsigned not null auto_increment,
     zip varchar(10) not null,
