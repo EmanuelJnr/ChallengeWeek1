@@ -3,7 +3,7 @@ package Question03;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Question3 {
+public class ProgramQ3 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		QuestionsAnswers QA;
