@@ -21,11 +21,11 @@ public class ProgramQ1 {
 			employees.add(new Employee(name, salary));
 		}
 		for(Employee employee : employees) {
-			NumberFormat dinheiro = NumberFormat.getCurrencyInstance(new Locale("pt","BR"));
+			NumberFormat money = NumberFormat.getCurrencyInstance(new Locale("pt","BR"));
 			System.out.println("\nEmployee: "+employee.getName());
-			System.out.println("Salary: R$ "+dinheiro.format(employee.getSalary()));
-			System.out.println("Bonus: R$ "+dinheiro.format(employee.getBonus()));
-			System.out.println("Liquid salary: R$ "+dinheiro.format(employee.getLiqSalary()));
+			System.out.println("Salary: R$ "+money.format(employee.getSalary()));
+			System.out.println("Bonus: R$ "+money.format(employee.getBonus()));
+			System.out.println("Liquid salary: R$ "+money.format(employee.getLiqSalary()));
 		}
 		input.close();
 	}
