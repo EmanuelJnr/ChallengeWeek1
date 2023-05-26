@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "645d920c7a2453efcf446e99"
+  },
+  "name": "João Paulo",
+  "age": 29,
+  "phone": "+55(083)9.9795-5541",
+  "height": 1.69,
+  "email": "joao_p2022@gmail.com",
+  "cpf": "100.455.134-19",
+  "birthday": "1993-10-12",
+  "address": [
+    {
+      "zip": "58400-414",
+      "street": "Rua Dom Pedro I",
+      "complement": "Casa",
+      "neighborhood": "Hospital Pedro I",
+      "city": "Campina Grande",
+      "state": "Paraíba",
+      "country": "Brasil"
+    }
+  ]
+}]
