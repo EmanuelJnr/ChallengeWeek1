@@ -11,7 +11,7 @@ public class Employee {
 		setSalary(salary);
 		calcLiqSalary();
 	}
-	public void calcLiqSalary() {
+	public void calcLiqSalary() {//new class only this code
 		if(salary<=1000) {
 			bonus+=salary*0.20;
 			liqSalary=salary+bonus;
