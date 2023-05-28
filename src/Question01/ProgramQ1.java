@@ -35,12 +35,21 @@ public class ProgramQ1 {
 			float salary = Float.parseFloat(input.nextLine());
 			employees.add(new Employee(name, salary));
 		}
+    
 		for(Employee employee : employees) {//new class only this code
 			var dinheiro = NumberFormat.getCurrencyInstance(new Locale("pt","BR"));
 			System.out.println("\nEmployee: " + employee.getName());
 			System.out.println("Salary: " + dinheiro.format(employee.getSalary()));
 			System.out.println("Bonus: " + dinheiro.format(employee.getBonus()));
 			System.out.println("Liquid salary: " + dinheiro.format(employee.getLiqSalary()));
+
+		for(Employee employee : employees) {
+			NumberFormat money = NumberFormat.getCurrencyInstance(new Locale("pt","BR"));
+			System.out.println("\nEmployee: "+employee.getName());
+			System.out.println("Salary: R$ "+money.format(employee.getSalary()));
+			System.out.println("Bonus: R$ "+money.format(employee.getBonus()));
+			System.out.println("Liquid salary: R$ "+money.format(employee.getLiqSalary()));
+
 		}
 		input.close();
 	}
