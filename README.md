@@ -8,9 +8,6 @@ Na segunda questão não havia muitos calculos ou informações para se guardar,
 
 Na terceira questão eu utilizei o Padrão de Projeto Strategy, para diminuir o acoplamento, tornar o código mais coeso e modular caso haja a nescessidade de criar outro gênero de perguntas.
 
-Na terceira questão eu utilizei o Padrão de Projeto Strategy, para diminuir o acoplamento, tornar o código mais coeso e modular caso haja a nescessidade de criar
-outro gênero de perguntas.
-
 Na quarta questão criei o script que cria o banco SQL e as tabelas requisitadas, e achei interessante criar o Model também.
 
 Na quinta questão apenas criei o script e inseri dados fictícios.
